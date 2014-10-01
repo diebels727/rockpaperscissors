@@ -1,0 +1,4 @@
+<%=form_tag throws_path do%>
+  <%=select_tag 'sign',options_from_collection_for_select(@signs,"id","name")%>
+  <%=submit_tag 'Throw!'%>
+<%end%>
